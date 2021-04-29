@@ -608,9 +608,9 @@
 /obj/item/storage/belt/fannypack
 	name = "fannypack"
 	desc = "A dorky fannypack for keeping small items in."
-	icon_state = "fannypack_leather"
-	inhand_icon_state = "fannypack_leather"
-	worn_icon_state = "fannypack_leather"
+	icon_state = "fannypack"
+	inhand_icon_state = "fannypack"
+	worn_icon_state = "fannypack"
 	dying_key = DYE_REGISTRY_FANNYPACK
 	custom_price = PAYCHECK_ASSISTANT * 2
 
@@ -619,66 +619,83 @@
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
 	STR.max_items = 3
 	STR.max_w_class = WEIGHT_CLASS_SMALL
+	greyscale_config = /datum/greyscale_config/fannypack
 
 /obj/item/storage/belt/fannypack/black
 	name = "black fannypack"
-	icon_state = "fannypack_black"
-	inhand_icon_state = "fannypack_black"
-	worn_icon_state = "fannypack_black"
+	icon_state = "fannypack"
+	inhand_icon_state = "fannypack"
+	worn_icon_state = "fannypack"
+	color = "#4A4A4B"
+
+/obj/item/storage/belt/fannypack/leather
+	name = "leather fannypack"
+	icon_state = "fannypack_leather"
+	inhand_icon_state = "fannypack_leather"
+	worn_icon_state = "fannypack_leather"
 
 /obj/item/storage/belt/fannypack/red
 	name = "red fannypack"
-	icon_state = "fannypack_red"
-	inhand_icon_state = "fannypack_red"
-	worn_icon_state = "fannypack_red"
+	icon_state = "fannypack"
+	inhand_icon_state = "fannypack"
+	worn_icon_state = "fannypack"
+	color = "#D91414"
 
 /obj/item/storage/belt/fannypack/purple
 	name = "purple fannypack"
-	icon_state = "fannypack_purple"
-	inhand_icon_state = "fannypack_purple"
-	worn_icon_state = "fannypack_purple"
+	icon_state = "fannypack"
+	inhand_icon_state = "fannypack"
+	worn_icon_state = "fannypack"
+	color = "#9557C5"
 
 /obj/item/storage/belt/fannypack/blue
 	name = "blue fannypack"
-	icon_state = "fannypack_blue"
-	inhand_icon_state = "fannypack_blue"
-	worn_icon_state = "fannypack_blue"
+	icon_state = "fannypack"
+	inhand_icon_state = "fannypack"
+	worn_icon_state = "fannypack"
+	color = "#1E85BC"
 
 /obj/item/storage/belt/fannypack/orange
 	name = "orange fannypack"
-	icon_state = "fannypack_orange"
-	inhand_icon_state = "fannypack_orange"
-	worn_icon_state = "fannypack_orange"
+	icon_state = "fannypack"
+	inhand_icon_state = "fannypack"
+	worn_icon_state = "fannypack"
+	color = "#C67A4B"
 
 /obj/item/storage/belt/fannypack/white
 	name = "white fannypack"
-	icon_state = "fannypack_white"
-	inhand_icon_state = "fannypack_white"
-	worn_icon_state = "fannypack_white"
+	icon_state = "fannypack"
+	inhand_icon_state = "fannypack"
+	worn_icon_state = "fannypack"
+	color = "#FFFFFF"
 
 /obj/item/storage/belt/fannypack/green
 	name = "green fannypack"
-	icon_state = "fannypack_green"
-	inhand_icon_state = "fannypack_green"
-	worn_icon_state = "fannypack_green"
+	icon_state = "fannypack"
+	inhand_icon_state = "fannypack"
+	worn_icon_state = "fannypack"
+	color = "#5C9E54"
 
 /obj/item/storage/belt/fannypack/pink
 	name = "pink fannypack"
-	icon_state = "fannypack_pink"
-	inhand_icon_state = "fannypack_pink"
-	worn_icon_state = "fannypack_pink"
+	icon_state = "fannypack"
+	inhand_icon_state = "fannypack"
+	worn_icon_state = "fannypack"
+	color = "#F699CD"
 
 /obj/item/storage/belt/fannypack/cyan
 	name = "cyan fannypack"
-	icon_state = "fannypack_cyan"
-	inhand_icon_state = "fannypack_cyan"
-	worn_icon_state = "fannypack_cyan"
+	icon_state = "fannypack"
+	inhand_icon_state = "fannypack"
+	worn_icon_state = "fannypack"
+	color = "#54A3CE"
 
 /obj/item/storage/belt/fannypack/yellow
 	name = "yellow fannypack"
-	icon_state = "fannypack_yellow"
-	inhand_icon_state = "fannypack_yellow"
-	worn_icon_state = "fannypack_yellow"
+	icon_state = "fannypack"
+	inhand_icon_state = "fannypack"
+	worn_icon_state = "fannypack"
+	color = "#E0C14F"
 
 /obj/item/storage/belt/sabre
 	name = "sabre sheath"

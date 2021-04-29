@@ -19,22 +19,25 @@
 	name = "tie"
 	desc = "A neosilk clip-on tie."
 	icon = 'icons/obj/clothing/neck.dmi'
-	icon_state = "bluetie"
+	icon_state = "tie"
 	inhand_icon_state = "" //no inhands
 	w_class = WEIGHT_CLASS_SMALL
 	custom_price = PAYCHECK_EASY
 
 /obj/item/clothing/neck/tie/blue
 	name = "blue tie"
-	icon_state = "bluetie"
+	icon_state = "tie"
+	color = "#1E85BC"
 
 /obj/item/clothing/neck/tie/red
 	name = "red tie"
-	icon_state = "redtie"
+	icon_state = "tie"
+	color = "#D91414"
 
 /obj/item/clothing/neck/tie/black
 	name = "black tie"
-	icon_state = "blacktie"
+	icon_state = "tie"
+	color = "#4A4A4B"
 
 /obj/item/clothing/neck/tie/horrible
 	name = "horrible tie"
@@ -157,18 +160,21 @@
 //However, these 3 don't have corgi versions of their sprites
 /obj/item/clothing/neck/stripedredscarf
 	name = "striped red scarf"
-	icon_state = "stripedredscarf"
+	icon_state = "stripedscarf"
 	custom_price = PAYCHECK_ASSISTANT * 0.2
+	color = "#D91414"
 
 /obj/item/clothing/neck/stripedgreenscarf
 	name = "striped green scarf"
-	icon_state = "stripedgreenscarf"
+	icon_state = "stripedscarf"
 	custom_price = PAYCHECK_ASSISTANT * 0.2
+	color = "#5C9E54"
 
 /obj/item/clothing/neck/stripedbluescarf
 	name = "striped blue scarf"
-	icon_state = "stripedbluescarf"
+	icon_state = "stripedscarf"
 	custom_price = PAYCHECK_ASSISTANT * 0.2
+	color = "#1E85BC"
 
 /obj/item/clothing/neck/petcollar
 	name = "pet collar"
