@@ -1,0 +1,10 @@
+2021-05-10:
+  SyncMercy:
+  - bugfix: Ice Box Station Telecommunication APC shouldn't drain so much at roundstart
+      anymore
+  tralezab:
+  - bugfix: Fixes misc js and py issues in the codebase (TGUI, CBT, mapmerge) (closes
+      every issue made by ZeWaka, bye felicia)
+  zxaber:
+  - bugfix: Mechs can move in space if near a wall again.
+  - bugfix: Mech thrusters no longer incorrectly fail if the mech is near a wall.
